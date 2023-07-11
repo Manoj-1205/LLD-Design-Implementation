@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d75a7975-bc15-4121-a01e-28ef9f37e021" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD Design Implementation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/BotPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Enums/DifficultyLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Enums/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/HumanPlayer.java" afterDir="false" />
+    <list default="true" id="d75a7975-bc15-4121-a01e-28ef9f37e021" name="Changes" comment="Models define">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/LevelStrategy/GPTMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/LevelStrategy/LevelStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/LevelStrategy/RandomMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/LevelStrategy/XmedMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/WinningStrategy/CheckWinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/WinningStrategy/ColumnCheckerStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/WinningStrategy/DiagonalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/WinningStrategy/DrawStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/WinningStrategy/RowCheckerStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/WinningStrategy/WinnerContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/BotPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/BotPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/models/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/models/HumanPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -64,7 +70,28 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="TicTacToe.models" />
+      <recent name="TicTacToe.Strategies.LevelStrategy" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.models.Main" />
+      <module name="LLD Design Implementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TicTacToe.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1689087773782</updated>
     </task>
+    <task id="LOCAL-00001" summary="Models define">
+      <created>1689089270011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689089270011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +122,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Models define" />
+    <option name="LAST_COMMIT_MESSAGE" value="Models define" />
   </component>
 </project>

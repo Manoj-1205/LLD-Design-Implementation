@@ -1,6 +1,6 @@
 package TicTacToe.models;
 
-public class HumanPlayer {
+public class HumanPlayer extends Player{
     private String name;
     private String email;
     private Byte[] profileImage;
