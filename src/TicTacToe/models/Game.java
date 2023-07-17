@@ -7,8 +7,7 @@ import TicTacToe.Strategies.WinningStrategy.WinnerContext;
 
 public class Game {
     private Board board;
-    private HumanPlayer humanPlayer;
-    private BotPlayer botPlayer;
+    private Player player;
 
 //    BotPlayer bot = new BotPlayer(new GPTMove());
     public void startGame(HumanPlayer humanPlayer, BotPlayer botPlayer){
